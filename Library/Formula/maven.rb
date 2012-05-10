@@ -2,7 +2,7 @@ require 'formula'
 
 class Maven < Formula
   homepage 'http://maven.apache.org/'
-  url 'http://www.apache.org/dyn/closer.cgi/maven/binaries/apache-maven-3.0.4-bin.tar.gz'
+  url '/tmp/apache-maven-3.0.4-bin.tar.gz'
   md5 'e513740978238cb9e4d482103751f6b7'
 
   def install
